@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1634848500001",
+    "username": "usuario1",
+    "email": "usuario1@example.com",
+    "password": "$2a$12$2iwkUyNG883sD3WUFHfnf.zcBCvA4C2H5Mua1QB5exwfopYUVWUl6",
+    "profileUrl": "usuario1",
+    "bio": "Soy el usuario de prueba 1",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/usuario1"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/usuario1"
+      }
+    ],
+    "templateId": 1,
+    "subscriptionPlan": "1634848500003"
+  },
+  {
+    "id": "1634848500002",
+    "username": "usuario2",
+    "email": "usuario2@example.com",
+    "password": "$2a$12$2iwkUyNG883sD3WUFHfnf.zcBCvA4C2H5Mua1QB5exwfopYUVWUl6",
+    "profileUrl": "usuario2",
+    "bio": "Soy el usuario de prueba 2",
+    "links": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/usuario2"
+      },
+      {
+        "name": "Portfolio",
+        "url": "https://usuario2.com"
+      }
+    ],
+    "templateId": 2,
+    "subscriptionPlan": "1634848500004"
+  },
+  {
+    "username": "usuario3",
+    "email": "usuario3@example.com",
+    "password": "$2a$12$2iwkUyNG883sD3WUFHfnf.zcBCvA4C2H5Mua1QB5exwfopYUVWUl6",
+    "profileUrl": "usuario3",
+    "id": "1729524732733"
+  }
+]
