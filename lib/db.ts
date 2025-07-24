@@ -47,6 +47,11 @@ export function findUserByEmail(email: string): User | undefined {
   return users.find(user => user.email === email);
 }
 
+export function findUserById(id: string): User | undefined {
+  const users = getAllUsers();
+  return users.find(user => user.id === id);
+}
+
 export function findUserByUsername(username: string): User | undefined {
   const users = getAllUsers();
   return users.find(user => user.username.toLowerCase() === username.toLowerCase());

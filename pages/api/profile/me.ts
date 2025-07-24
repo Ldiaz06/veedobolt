@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { verifyToken } from '@/lib/auth';
-import { findUserByEmail } from '@/lib/db';
+import { findUserById } from '@/lib/db';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
@@ -20,7 +20,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(401).json({ message: 'Token inválido' });
     }
 
-    const user = findUserByEmail(decoded.userId);
+    const user = findUserById(decoded.userId);
 
     if (!user) {
       return res.status(404).json({ message: 'Usuario no encontrado' });
