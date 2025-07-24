@@ -45,5 +45,12 @@
     "password": "$2a$12$2iwkUyNG883sD3WUFHfnf.zcBCvA4C2H5Mua1QB5exwfopYUVWUl6",
     "profileUrl": "usuario3",
     "id": "1729524732733"
+  },
+  {
+    "username": "admin",
+    "email": "admin@correo.com",
+    "password": "$2a$12$o87zS9LTUuX5EsldY4Mp8ev1bXplmxJIODCOej/DLdscOtj1m2cJu",
+    "profileUrl": "admin",
+    "id": "1753392723271"
   }
 ]
